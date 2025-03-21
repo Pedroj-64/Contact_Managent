@@ -1,12 +1,14 @@
 package co.edu.uniquindio.poo.proyecto_contacto.Model;
 
-import lombok.AllArgsConstructor;
+import co.edu.uniquindio.poo.proyecto_contacto.Model.Enumeration.TypeContact;
+import lombok.Builder;
 import lombok.Data;
 
 
 import java.time.LocalDate;
 
 @Data
+@Builder
 public class Contact{
     private String name;
     private String lastName;

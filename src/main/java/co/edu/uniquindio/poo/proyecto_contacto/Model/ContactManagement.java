@@ -1,5 +1,7 @@
 package co.edu.uniquindio.poo.proyecto_contacto.Model;
 
+import co.edu.uniquindio.poo.proyecto_contacto.Model.Enumeration.TypeContact;
+import co.edu.uniquindio.poo.proyecto_contacto.Model.Interfaces.ActionsContactList;
 import lombok.Data;
 
 import java.time.LocalDate;
@@ -7,7 +9,7 @@ import java.util.LinkedList;
 
 @Data
 
-public class ContactManagement implements ActionsContactList{
+public class ContactManagement implements ActionsContactList {
 
     private LinkedList<Contact> contacts;
 

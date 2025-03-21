@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.proyecto_contacto;
+package co.edu.uniquindio.poo.proyecto_contacto.ViewController;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
