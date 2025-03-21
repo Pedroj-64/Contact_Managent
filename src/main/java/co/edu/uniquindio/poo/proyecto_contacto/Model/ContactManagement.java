@@ -83,18 +83,53 @@ public class ContactManagement implements ActionsContactList {
     }
 
     /**
-     * @param contact
+     * @param name
      */
-    @Override
-    public void SearchContact(Contact contact) {
+@Override
+public Contact SearchContactName(String name) {
+    if (name == null) {
+        throw new IllegalArgumentException("Name cannot be null");
+    }
+
+    Contact finder = null;
+
+    for (Contact c : contacts) {
+        if (c.getName().equals(name)) {
+            finder = c;
+            break;
+        }
+    }
+
+    if (finder == null) {
+        throw new RuntimeException("Contact not found");
+    }
+
+    return finder;
+}
+
+/**
+ * @param phoneNumber
+ */
+@Override
+public Contact SearchContactPhoneNumber(String phoneNumber) {
+    Contact finder = null;
+    if (phoneNumber == null) {
+        throw new IllegalArgumentException("Phone number cannot be null");
+    }
+
+
+    for (Contact c : contacts) {
+        if (c.getPhoneNumber().equals(phoneNumber)) {
+            finder=c;
+        }else{
+            throw new RuntimeException("Contact not found");
+        }
 
     }
 
-    /**
-     *
-     */
-    @Override
-    public void ShowContactList() {
 
-    }
+    return finder;
+
+}
+
 }

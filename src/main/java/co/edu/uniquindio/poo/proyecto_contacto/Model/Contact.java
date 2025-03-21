@@ -8,7 +8,7 @@ import lombok.Data;
 import java.time.LocalDate;
 
 @Data
-@Builder
+@Builder(builderClassName = "ContactBuilder")
 public class Contact{
     private String name;
     private String lastName;
