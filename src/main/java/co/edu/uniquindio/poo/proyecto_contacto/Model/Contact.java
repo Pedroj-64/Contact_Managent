@@ -1,6 +1,5 @@
 package co.edu.uniquindio.poo.proyecto_contacto.Model;
 
-import co.edu.uniquindio.poo.proyecto_contacto.Model.Enumeration.TypeContact;
 import lombok.Builder;
 import lombok.Data;
 

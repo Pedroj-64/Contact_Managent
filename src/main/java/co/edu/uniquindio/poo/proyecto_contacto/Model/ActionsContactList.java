@@ -1,7 +1,4 @@
-package co.edu.uniquindio.poo.proyecto_contacto.Model.Interfaces;
-
-import co.edu.uniquindio.poo.proyecto_contacto.Model.Contact;
-import co.edu.uniquindio.poo.proyecto_contacto.Model.Enumeration.TypeContact;
+package co.edu.uniquindio.poo.proyecto_contacto.Model;
 
 import java.time.LocalDate;
 
