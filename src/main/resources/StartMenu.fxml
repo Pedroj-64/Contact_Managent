@@ -70,7 +70,7 @@
                      <graphic>
                         <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@Images/lupa.png" />
+                              <Image url="@co/edu/uniquindio/poo/proyecto_contacto/Images/lupa.png" />
                            </image>
                         </ImageView>
                      </graphic>
